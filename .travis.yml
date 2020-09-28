@@ -2,6 +2,7 @@ language: ruby
 branches:
   only:
     - master
+    - ruby30
 env:
   global:
     - JRUBY_OPTS="$JRUBY_OPTS --debug"
