@@ -19,7 +19,7 @@ platforms :jruby do
     gem 'activerecord-jdbcsqlite3-adapter'
   end
   gem 'jruby-openssl'
-  gem 'mime-types', ['~> 2.6', '< 2.99']
+  gem 'mime-types', '>= 2.6'
   if ENV['RAILS_VERSION'] == 'edge'
     gem 'railties', :github => 'rails/rails'
   else
